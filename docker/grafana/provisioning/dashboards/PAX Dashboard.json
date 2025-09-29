@@ -146,7 +146,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "code",
           "format": "table",
@@ -175,7 +175,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -194,7 +194,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -336,7 +336,7 @@
       "datasource": {
         "default": true,
         "type": "prometheus",
-        "uid": "P1809F7CD0C75ACF3"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "fieldConfig": {
         "defaults": {
@@ -391,7 +391,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -586,7 +586,7 @@
       "datasource": {
         "default": true,
         "type": "prometheus",
-        "uid": "P1809F7CD0C75ACF3"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "fieldConfig": {
         "defaults": {
@@ -666,7 +666,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -682,7 +682,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -718,7 +718,7 @@
         },
         "datasource": {
           "type": "grafana-postgresql-datasource",
-          "uid": "PA942B37CCFAF5A81"
+          "uid": "P6FFE9BCE28CDFF26"
         },
         "definition": "SELECT \n  concat(long_name, ' (', node_id, ')') as __text, \n  node_id as __value \nFROM node_details \nORDER BY long_name",
         "hide": 0,

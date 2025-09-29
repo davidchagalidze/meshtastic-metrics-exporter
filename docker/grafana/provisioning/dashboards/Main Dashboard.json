@@ -50,7 +50,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PA942B37CCFAF5A81"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "Total number of observed nodes in the mesh",
       "fieldConfig": {
@@ -101,7 +101,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "builder",
           "format": "table",
@@ -160,7 +160,7 @@
     {
       "datasource": {
         "type": "grafana-postgresql-datasource",
-        "uid": "PA942B37CCFAF5A81"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "Nodes that sent any packet in the last 30 minutes",
       "fieldConfig": {
@@ -211,7 +211,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "code",
           "format": "table",
@@ -277,7 +277,7 @@
     {
       "datasource": {
         "type": "grafana-postgresql-datasource",
-        "uid": "PA942B37CCFAF5A81"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "How many nodes are unknown and how many are known.\n\nThe unknown are ones that are either NULL in their long name or \"Unknown\" in their value",
       "fieldConfig": {
@@ -345,7 +345,7 @@
         {
           "datasource": {
             "type": "grafana-postgresql-datasource",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "code",
           "format": "table",
@@ -385,7 +385,7 @@
     {
       "datasource": {
         "type": "grafana-postgresql-datasource",
-        "uid": "PA942B37CCFAF5A81"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "Status of nodes in the MQTT server",
       "fieldConfig": {
@@ -457,7 +457,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "builder",
           "format": "table",
@@ -625,7 +625,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -644,7 +644,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "P1809F7CD0C75ACF3"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "Shows the total data sent on the mesh in bytes in the last hour. This includes all types of packets.",
       "fieldConfig": {
@@ -695,7 +695,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -742,7 +742,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "P1809F7CD0C75ACF3"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "Shows the max recorded chanel utilization and the average",
       "fieldConfig": {
@@ -840,7 +840,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -861,7 +861,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "P1809F7CD0C75ACF3"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "This panel shows the percentage of airtime used for transmissions in the last hour. Airtime in LoRa networks represents the duration a device occupies the radio frequency channel to send data. It's a critical metric for:\n\nNetwork capacity: Higher airtime usage indicates increased network load.\n\nRegulatory compliance: Many regions limit the total airtime per device.\n\nBattery life: More airtime generally means higher power consumption.\n\nThe data comes from Meshtastic packets, reflecting actual network usage. High percentages may suggest the need for optimization or capacity planning.",
       "fieldConfig": {
@@ -954,7 +954,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "code",
@@ -976,7 +976,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "P1809F7CD0C75ACF3"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "Displays the nodes that utilize most of the channel (On average with at least 1 update every hour)",
       "fieldConfig": {
@@ -1067,7 +1067,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "code",
@@ -1145,7 +1145,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -1164,7 +1164,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "P1809F7CD0C75ACF3"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "How many hops are configured for each client",
       "fieldConfig": {
@@ -1232,7 +1232,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "P1809F7CD0C75ACF3"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "disableTextWrap": false,
           "editorMode": "code",
@@ -1252,7 +1252,7 @@
     {
       "datasource": {
         "type": "grafana-postgresql-datasource",
-        "uid": "PA942B37CCFAF5A81"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "Graph that is built from Neighbor Info reports and shows the signal strenth for each line",
       "gridPos": {
@@ -1275,7 +1275,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "code",
           "format": "table",
@@ -1360,7 +1360,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "code",
           "format": "table",
@@ -1429,7 +1429,7 @@
     {
       "datasource": {
         "type": "grafana-postgresql-datasource",
-        "uid": "PA942B37CCFAF5A81"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "Information stored on the Redis DB which includes \"hard to get\" information - that is needed to be gathered over time.",
       "fieldConfig": {
@@ -1597,7 +1597,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "code",
           "format": "table",
@@ -1721,7 +1721,7 @@
     {
       "datasource": {
         "type": "grafana-postgresql-datasource",
-        "uid": "PA942B37CCFAF5A81"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "Displays the nodes on the map",
       "fieldConfig": {
@@ -1891,7 +1891,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "code",
           "format": "table",
@@ -2031,7 +2031,7 @@
         },
         "datasource": {
           "type": "postgres",
-          "uid": "PA942B37CCFAF5A81"
+          "uid": "P6FFE9BCE28CDFF26"
         },
         "definition": "SELECT \n  concat(long_name, ' (', node_id, ')') as __text, \n  node_id as __value \nFROM node_details \nORDER BY long_name",
         "hide": 0,

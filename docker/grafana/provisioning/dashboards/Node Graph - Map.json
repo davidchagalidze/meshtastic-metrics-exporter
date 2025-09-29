@@ -24,7 +24,7 @@
     {
       "datasource": {
         "type": "grafana-postgresql-datasource",
-        "uid": "PA942B37CCFAF5A81"
+        "uid": "P6FFE9BCE28CDFF26"
       },
       "description": "Graph that is built from Neighbor Info reports and shows the signal strenth for each line",
       "fieldConfig": {
@@ -187,7 +187,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "code",
           "format": "table",
@@ -272,7 +272,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PA942B37CCFAF5A81"
+            "uid": "P6FFE9BCE28CDFF26"
           },
           "editorMode": "code",
           "format": "table",
